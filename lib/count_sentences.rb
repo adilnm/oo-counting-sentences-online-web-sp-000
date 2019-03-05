@@ -1,9 +1,9 @@
 require 'pry'
 
 class String
-
+   attr_accessor :string
   def sentence?
-    
+      self.string.end_with?(".")
   end
 
   def question?
